@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+FILE_TO_RUN="/project/target/main.R"
+INPUT_BASENAME=$(basename -- "$1")
+TEX_FILE="${INPUT_BASENAME%.*}.tex"
+PDF_FILE="${INPUT_BASENAME%.*}.pdf"
+cat > $FILE_TO_RUN << EOF
+library(ggplot2)
+theme_update(axis.title.x = element_text(vjust = -0.1))
+theme_update(axis.title.y = element_text(angle = 90, vjust = 0.12))
+theme_update(plot.title = element_text(vjust = 1))
+update_geom_defaults("point", aes(size = 3))
+update_geom_defaults("line", aes(size = 1))
+tikzDevice::tikz("$TEX_FILE", standAlone = TRUE)
+`cat $1`
+graphics.off()
+tools::texi2dvi("$TEX_FILE", pdf = TRUE)
+EOF
+Rscript $FILE_TO_RUN
+echo "TECHIO> open -s /project/target/ $PDF_FILE"

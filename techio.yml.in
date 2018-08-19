@@ -1,0 +1,36 @@
+title: Computing with Data
+cover: https://images.springer.com/sgw/books/big/9783319981482.jpg
+projects:
+  bash:
+    root: /projects/bash
+    runner: computingwithdata/bash:latest
+  powershell:
+    root: /projects/powershell
+    runner: computingwithdata/powershell:latest
+  python:
+    root: /projects/python
+    runner: computingwithdata/python:latest
+  R:
+    root: /projects/R
+    runner: computingwithdata/r-base:latest
+plan:
+- title: Chapter 2
+  description: "Essential Knowledge: Hardware"
+  plan:
+>>build-plan markdowns/chapter2/*
+- title: Chapter 3
+  description: "Essential Knowledge: Operating Systems"
+  plan:
+>>build-plan markdowns/chapter3/*
+- title: Chapter 6
+  description: "Learning Python"
+  plan:
+>>build-plan markdowns/chapter6/*
+- title: Chapter 7
+  description: "Learning R"
+  plan:
+>>build-plan markdowns/chapter7/*
+- title: Chapter 8
+  description: "Visualizing Data in Python and R"
+  plan:
+>>build-plan markdowns/chapter8/*

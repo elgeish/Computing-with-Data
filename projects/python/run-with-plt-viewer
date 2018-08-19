@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+FILE_TO_RUN="main.py"
+INPUT_BASENAME=$(basename -- "$1")
+PDF_FILE="${INPUT_BASENAME%.*}.pdf"
+cat > $FILE_TO_RUN << EOF
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+
+`cat $1`
+pdf = PdfPages('$PDF_FILE')
+for i in plt.get_fignums():
+    plt.figure(i).savefig(pdf, format='pdf')
+pdf.close()
+EOF
+python $FILE_TO_RUN
+echo "TECHIO> open -s /project/target/ $PDF_FILE"
