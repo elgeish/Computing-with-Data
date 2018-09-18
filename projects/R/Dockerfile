@@ -1,4 +1,4 @@
-FROM r-base:latest
+FROM r-base
 
 RUN apt-get -qq update
 RUN apt-get -qq install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texinfo

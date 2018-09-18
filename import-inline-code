@@ -30,7 +30,7 @@ def write_output(lesson_file, language):
     if not extension:
         return
     path_parts = lesson_file_path.split('/')
-    chapter = os.path.join('projects', language, path_parts[1])
+    chapter = os.path.join('projects', extension, path_parts[1])
     try:
         os.makedirs(chapter)
     except OSError as error:

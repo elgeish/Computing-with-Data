@@ -7,4 +7,4 @@ a more appealing shell to .NET developers when compared to Command Prompt.
 __Note:__ PowerShell examples in the book ran on Windows; the code on this
 website runs on Linux — the output may vary.
 
-@[]({"project": "powershell", "stubs": ["chapter3/powershell-introduction.ps1"], "command": "pwsh chapter3/powershell-introduction.ps1"})
+@[]({"project": "ps1", "stubs": ["chapter3/powershell-introduction.ps1"], "command": "pwsh chapter3/powershell-introduction.ps1"})

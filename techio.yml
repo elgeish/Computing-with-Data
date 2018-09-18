@@ -2,18 +2,21 @@
 title: Computing with Data
 cover: https://images.springer.com/sgw/books/big/9783319981482.jpg
 projects:
-  bash:
-    root: /projects/bash
-    runner: computingwithdata/bash:latest
-  powershell:
-    root: /projects/powershell
-    runner: computingwithdata/powershell:latest
-  python:
-    root: /projects/python
-    runner: computingwithdata/python:latest
+  sh:
+    root: /projects/sh
+    runner: computingwithdata/bash
+  cpp:
+    root: /projects/cpp
+    runner: computingwithdata/cpp
+  ps1:
+    root: /projects/ps1
+    runner: computingwithdata/powershell
+  py:
+    root: /projects/py
+    runner: computingwithdata/python
   R:
     root: /projects/R
-    runner: computingwithdata/r-base:latest
+    runner: computingwithdata/r-base
 plan:
 - title: Chapter 2
   description: "Essential Knowledge: Hardware"
@@ -107,6 +110,149 @@ plan:
     statement: markdowns/chapter3/M1-redirecting-input-and-output-in-windows.md
   - title: Working on Remote Linux Computers
     statement: markdowns/chapter3/N-working-on-remote-linux-computers.md
+- title: Chapter 4
+  description: "Learning C++"
+  plan:
+  - title: Compilation
+    statement: markdowns/chapter4/0-compilation.md
+  - title: Variables
+    statement: markdowns/chapter4/1-variables.md
+  - title: Scope
+    statement: markdowns/chapter4/2-scope.md
+  - title: Operators
+    statement: markdowns/chapter4/3-operators.md
+  - title: Type Conversions
+    statement: markdowns/chapter4/4-type-conversions.md
+  - title: References
+    statement: markdowns/chapter4/5-references.md
+  - title: Pointers
+    statement: markdowns/chapter4/6-pointers.md
+  - title: Arrays
+    statement: markdowns/chapter4/7-arrays.md
+  - title: Preprocessor and Namespaces - Part I
+    statement: markdowns/chapter4/8-preprocessor-and-namespaces-part-i.md
+  - title: Preprocessor and Namespaces - Part II
+    statement: markdowns/chapter4/9-preprocessor-and-namespaces-part-ii.md
+  - title: Strings - Part I
+    statement: markdowns/chapter4/A0-strings-part-i.md
+  - title: Strings - Part II
+    statement: markdowns/chapter4/A1-strings-part-ii.md
+  - title: Input - Part I
+    statement: markdowns/chapter4/B1-input-part-i.md
+  - title: Input - Part II
+    statement: markdowns/chapter4/B2-input-part-ii.md
+  - title: Input - Part III
+    statement: markdowns/chapter4/B3-input-part-iii.md
+  - title: Output
+    statement: markdowns/chapter4/C-output.md
+  - title: If-Else Clauses
+    statement: markdowns/chapter4/D0-if-else-clauses.md
+  - title: While-Loops
+    statement: markdowns/chapter4/D1-while-loops.md
+  - title: For-Loops - Part I
+    statement: markdowns/chapter4/D2-for-loops-part-i.md
+  - title: For-Loops - Part II
+    statement: markdowns/chapter4/D3-for-loops-part-ii.md
+  - title: For-Loops - Part III
+    statement: markdowns/chapter4/D4-for-loops-part-iii.md
+  - title: Functions
+    statement: markdowns/chapter4/E0-functions.md
+  - title: Return Value
+    statement: markdowns/chapter4/E1-return-value.md
+  - title: Function Parameters
+    statement: markdowns/chapter4/E2-function-parameters.md
+  - title: Function Definition and Declaration
+    statement: markdowns/chapter4/E3-function-definition-and-declaration.md
+  - title: Scope of Function Variables
+    statement: markdowns/chapter4/E4-scope-of-function-variables.md
+  - title: Pointer Parameters
+    statement: markdowns/chapter4/E5-pointer-parameters.md
+  - title: Reference Parameters
+    statement: markdowns/chapter4/E6-reference-parameters.md
+  - title: Recursion - Part I
+    statement: markdowns/chapter4/E7-recursion-part-i.md
+  - title: Recursion - Part II
+    statement: markdowns/chapter4/E8-recursion-part-ii.md
+  - title: Recursion - Part III
+    statement: markdowns/chapter4/E9-recursion-part-iii.md
+  - title: Recursion - Part IV
+    statement: markdowns/chapter4/EA-recursion-part-iv.md
+  - title: Passing Arguments to Main
+    statement: markdowns/chapter4/EB-passing-arguments-to-main.md
+  - title: Overloading Functions
+    statement: markdowns/chapter4/EC-overloading-functions.md
+  - title: Structs - Part I
+    statement: markdowns/chapter4/F0-structs-part-i.md
+  - title: Structs - Part II
+    statement: markdowns/chapter4/F1-structs-part-ii.md
+  - title: Structs - Part III
+    statement: markdowns/chapter4/F2-structs-part-iii.md
+  - title: Structs - Part IV
+    statement: markdowns/chapter4/F3-structs-part-iv.md
+  - title: Structs - Part V
+    statement: markdowns/chapter4/F4-structs-part-v.md
+  - title: Classes
+    statement: markdowns/chapter4/G0-classes.md
+  - title: Constructors - Part I
+    statement: markdowns/chapter4/G1-constructors-part-i.md
+  - title: Constructors - Part II
+    statement: markdowns/chapter4/G2-constructors-part-ii.md
+  - title: The Destructor
+    statement: markdowns/chapter4/G3-the-destructor.md
+  - title: The Copy Constructor
+    statement: markdowns/chapter4/G4-the-copy-constructor.md
+  - title: The Converting Constructor
+    statement: markdowns/chapter4/G5-the-converting-constructor.md
+  - title: The Implicit Converting Constructor
+    statement: markdowns/chapter4/G6-the-implicit-converting-constructor.md
+  - title: The Explicit Converting Constructor
+    statement: markdowns/chapter4/G7-the-explicit-converting-constructor.md
+  - title: Operator Overloading
+    statement: markdowns/chapter4/G8-operator-overloading.md
+  - title: Friend Functions and Classes
+    statement: markdowns/chapter4/G9-friend-functions-and-classes.md
+  - title: Inheritance
+    statement: markdowns/chapter4/GA-inheritance.md
+  - title: Polymorphism
+    statement: markdowns/chapter4/GB-polymorphism.md
+  - title: Static Binding
+    statement: markdowns/chapter4/GC-static-binding.md
+  - title: Virtual Functions
+    statement: markdowns/chapter4/GD-virtual-functions.1.md
+  - title: Static Variables and Functions - Part I
+    statement: markdowns/chapter4/GE-static-variables-and-functions-part-i.md
+  - title: Static Variables and Functions - Part II
+    statement: markdowns/chapter4/GF-static-variables-and-functions-part-ii.md
+  - title: Dynamic Memory Allocation - Part I
+    statement: markdowns/chapter4/H0-dynamic-memory-allocation-part-i.md
+  - title: Dynamic Memory Allocation - Part II
+    statement: markdowns/chapter4/H1-dynamic-memory-allocation-part-ii.md
+  - title: Dynamic Memory Allocation - Part III
+    statement: markdowns/chapter4/H2-dynamic-memory-allocation-part-iii.md
+  - title: Smart Pointers - Part I
+    statement: markdowns/chapter4/H3-smart-pointers-part-i.md
+  - title: Smart Pointers - Part II
+    statement: markdowns/chapter4/H4-smart-pointers-part-ii.md
+  - title: Smart Pointers - Part III
+    statement: markdowns/chapter4/H5-smart-pointers-part-iii.md
+  - title: Template Functions - Part I
+    statement: markdowns/chapter4/I0-template-functions-part-i.md
+  - title: Template Functions - Part II
+    statement: markdowns/chapter4/I1-template-functions-part-ii.md
+  - title: Template Classes
+    statement: markdowns/chapter4/I2-template-classes.md
+  - title: Vectors
+    statement: markdowns/chapter4/J0-vectors.md
+  - title: Arrays
+    statement: markdowns/chapter4/J1-arrays.md
+  - title: Sets
+    statement: markdowns/chapter4/J2-sets.md
+  - title: Maps - Part I
+    statement: markdowns/chapter4/J3-maps-part-i.md
+  - title: Maps - Part II
+    statement: markdowns/chapter4/J4-maps-part-ii.md
+  - title: Unordered Maps
+    statement: markdowns/chapter4/J5-unordered-maps.md
 - title: Chapter 6
   description: "Learning Python"
   plan:
@@ -228,7 +374,7 @@ plan:
   - title: Customization
     statement: markdowns/chapter7/F-customization.md
 - title: Chapter 8
-  description: "Visualizing Data in Python and R"
+  description: "Visualizing Data in R and Python"
   plan:
   - title: Graphing Data in R
     statement: markdowns/chapter8/0-graphing-data-in-r.md

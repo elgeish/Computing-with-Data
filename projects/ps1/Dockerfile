@@ -1,0 +1,3 @@
+FROM microsoft/powershell
+
+COPY . .
