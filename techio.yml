@@ -8,6 +8,9 @@ projects:
   cpp:
     root: /projects/cpp
     runner: computingwithdata/cpp
+  java:
+    root: /projects/java
+    runner: computingwithdata/java
   ps1:
     root: /projects/ps1
     runner: computingwithdata/powershell
@@ -253,6 +256,43 @@ plan:
     statement: markdowns/chapter4/J4-maps-part-ii.md
   - title: Unordered Maps
     statement: markdowns/chapter4/J5-unordered-maps.md
+- title: Chapter 5
+  description: "Learning Java"
+  plan:
+  - title: Compilation
+    statement: markdowns/chapter5/0-compilation.md
+  - title: Types, Variables, and Scope
+    statement: markdowns/chapter5/1-types-variables-and-scope.md
+  - title: Primitive and Non-Primitive Types
+    statement: markdowns/chapter5/2-primitive-and-non-primitive-types.md
+  - title: Arrays
+    statement: markdowns/chapter5/3-arrays.md
+  - title: Multidimensional Arrays
+    statement: markdowns/chapter5/4-multidimensional-arrays.md
+  - title: Ragged Multidimensional Arrays
+    statement: markdowns/chapter5/5-ragged-multidimensional-arrays.md
+  - title: Classpath
+    statement: markdowns/chapter5/6-classpath.md
+  - title: Strings
+    statement: markdowns/chapter5/7-strings.md
+  - title: Functions
+    statement: markdowns/chapter5/8-functions.md
+  - title: Classes - Part I
+    statement: markdowns/chapter5/9-classes-part-i.md
+  - title: Classes - Part II
+    statement: markdowns/chapter5/A-classes-part-ii.md
+  - title: Classes - Part III
+    statement: markdowns/chapter5/B-classes-part-iii.md
+  - title: Inheritance
+    statement: markdowns/chapter5/C-inheritance.md
+  - title: Interfaces
+    statement: markdowns/chapter5/D-interfaces.md
+  - title: Generics
+    statement: markdowns/chapter5/E-generics.md
+  - title: ArrayList
+    statement: markdowns/chapter5/F-arraylist.md
+  - title: HashMap
+    statement: markdowns/chapter5/G-hashmap.md
 - title: Chapter 6
   description: "Learning Python"
   plan:

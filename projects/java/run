@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+cd $(dirname -- "$1")
+INPUT_BASENAME=$(basename -- "$1")
+javac "$INPUT_BASENAME.java"
+java "$INPUT_BASENAME"

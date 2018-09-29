@@ -7,6 +7,9 @@ projects:
   cpp:
     root: /projects/cpp
     runner: computingwithdata/cpp
+  java:
+    root: /projects/java
+    runner: computingwithdata/java
   ps1:
     root: /projects/ps1
     runner: computingwithdata/powershell
@@ -29,6 +32,10 @@ plan:
   description: "Learning C++"
   plan:
 >>build-plan markdowns/chapter4/*
+- title: Chapter 5
+  description: "Learning Java"
+  plan:
+>>build-plan markdowns/chapter5/*
 - title: Chapter 6
   description: "Learning Python"
   plan:
