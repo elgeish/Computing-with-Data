@@ -48,3 +48,7 @@ plan:
   description: "Visualizing Data in R and Python"
   plan:
 >>build-plan markdowns/chapter8/*
+- title: Chapter 9
+  description: "Processing Data in R and Python"
+  plan:
+>>build-plan markdowns/chapter9/*

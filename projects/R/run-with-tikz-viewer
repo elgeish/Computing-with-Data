@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-FILE_TO_RUN="/project/target/main.R"
+FILE_TO_RUN="main.R"
 INPUT_BASENAME=$(basename -- "$1")
 TEX_FILE="${INPUT_BASENAME%.*}.tex"
 PDF_FILE="${INPUT_BASENAME%.*}.pdf"

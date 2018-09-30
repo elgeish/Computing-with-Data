@@ -11,7 +11,7 @@ df = pd.DataFrame(data)
 print("dataframe content =\n" + str(df))
 print("dataframe types =\n" + str(df.dtypes))
 
-# Example: accessing data in a data frame
+# Example: accessing data in a dataframe
 df["age"] = 35  # assign 35 to all age values
 print("age column =\n" + str(df["age"]))
 print("height column =\n" + str(df.height))

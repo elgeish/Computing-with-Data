@@ -464,3 +464,30 @@ plan:
     statement: markdowns/chapter8/M-contour-plots.md
   - title: Surface Plots
     statement: markdowns/chapter8/N-surface-plots.md
+- title: Chapter 9
+  description: "Processing Data in R and Python"
+  plan:
+  - title: Missing Data in R - Part I
+    statement: markdowns/chapter9/0-missing-data-in-r-part-i.md
+  - title: Missing Data in R - Part II
+    statement: markdowns/chapter9/1-missing-data-in-r-part-ii.md
+  - title: Missing Data in Python
+    statement: markdowns/chapter9/2-missing-data-in-python.md
+  - title: Outliers
+    statement: markdowns/chapter9/3-outliers.md
+  - title: Skewness and Power Transformation - Part I
+    statement: markdowns/chapter9/4-skewness-and-power-transformation-part-i.md
+  - title: Skewness and Power Transformation - Part II
+    statement: markdowns/chapter9/5-skewness-and-power-transformation-part-ii.md
+  - title: Binning
+    statement: markdowns/chapter9/6-binning.md
+  - title: Indicator Variables
+    statement: markdowns/chapter9/7-indicator-values.md
+  - title: Random Sampling, Partitioning, and Shuffling
+    statement: markdowns/chapter9/8-random-sampling-partitioning-and-shuffling.md
+  - title: Concatenations and Joins
+    statement: markdowns/chapter9/9-concatenations-and-joins.md
+  - title: Reshaping Data
+    statement: markdowns/chapter9/A-reshaping-data.md
+  - title: The Split-Apply-Combine Framework
+    statement: markdowns/chapter9/B-the-split-apply-combine-framework.md
