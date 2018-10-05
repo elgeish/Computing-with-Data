@@ -1,0 +1,9 @@
+#!/bin/bash
+cp "$1.java" Main.java
+javac Main.java
+pids=""
+for i in `seq 0 2`; do
+   java Main &
+   pids="$pids $!"
+done
+wait $pids # for output to show up in tech.io

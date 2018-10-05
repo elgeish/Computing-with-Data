@@ -52,3 +52,7 @@ plan:
   description: "Processing Data in R and Python"
   plan:
 >>build-plan markdowns/chapter9/*
+- title: Chapter 10
+  description: "Essential Knowledge: Parallel Programming"
+  plan:
+>>build-plan markdowns/chapter10/*

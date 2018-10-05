@@ -1,6 +1,3 @@
-# Function Definition and Declaration
-
-```C++
 // Example 1
 int add_two(int x, int y) { // function definition
   return x + y;
@@ -16,4 +13,3 @@ int main() {
   
   return 0;
 }
-```

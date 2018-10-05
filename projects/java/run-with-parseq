@@ -1,0 +1,18 @@
+#!/bin/bash
+set -e
+cp "$1.java" Main.java
+export CLASSPATH=.\
+:jars/async-http-client-1.9.21.jar\
+:jars/jackson-annotations-2.9.6.jar\
+:jars/jackson-core-2.9.6.jar\
+:jars/jackson-core-asl-1.9.13.jar\
+:jars/jackson-databind-2.9.6.jar\
+:jars/jackson-mapper-asl-1.9.13.jar\
+:jars/log4j-1.2.17.jar\
+:jars/parseq-3.0.4.jar\
+:jars/parseq-http-client-3.0.4.jar\
+:jars/slf4j-api-1.7.25.jar\
+:jars/slf4j-log4j12-1.7.25.jar\
+:.
+javac Main.java
+java Main

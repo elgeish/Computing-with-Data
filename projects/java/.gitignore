@@ -1,1 +1,4 @@
 *.class
+Main.java
+.lock
+*.out

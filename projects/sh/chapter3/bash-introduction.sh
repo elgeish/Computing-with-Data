@@ -16,7 +16,7 @@ cat -en hello.txt
 
 # Example: named arguments
 # this launched another bash program that runs
-# the commandspecified by the -c option then quits
+# the command specified by the -c option then quits
 bash -c "ls"
 
 # Example: the man command

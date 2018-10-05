@@ -164,8 +164,8 @@ plan:
     statement: markdowns/chapter4/E1-return-value.md
   - title: Function Parameters
     statement: markdowns/chapter4/E2-function-parameters.md
-  - title: Function Definition and Declaration
-    statement: markdowns/chapter4/E3-function-definition-and-declaration.md
+  - title: Function Definition and Function Declaration
+    statement: markdowns/chapter4/E3-function-definition-and-function-declaration.md
   - title: Scope of Function Variables
     statement: markdowns/chapter4/E4-scope-of-function-variables.md
   - title: Pointer Parameters
@@ -491,3 +491,86 @@ plan:
     statement: markdowns/chapter9/A-reshaping-data.md
   - title: The Split-Apply-Combine Framework
     statement: markdowns/chapter9/B-the-split-apply-combine-framework.md
+- title: Chapter 10
+  description: "Essential Knowledge: Parallel Programming"
+  plan:
+  - title: Thread Safety - Part I
+    statement: markdowns/chapter10/0-thread-safety-part-i.md
+  - title: Thread Safety - Part II
+    statement: markdowns/chapter10/1-thread-safety-part-ii.md
+  - title: Volatility - Part I
+    statement: markdowns/chapter10/2-volatility-part-i.md
+  - title: Volatility - Part II
+    statement: markdowns/chapter10/3-volatility-part-ii.md
+  - title: Synchronization
+    statement: markdowns/chapter10/4-synchronization.md
+  - title: Ineffectual Synchronization - Part I
+    statement: markdowns/chapter10/5-ineffectual-synchronization-part-i.md
+  - title: Ineffectual Synchronization - Part II
+    statement: markdowns/chapter10/6-ineffectual-synchronization-part-ii.md
+  - title: Ineffectual Synchronization - Part III
+    statement: markdowns/chapter10/7-ineffectual-synchronization-part-iii.md
+  - title: Synchronization vs. Volatility
+    statement: markdowns/chapter10/8-synchronization-vs-volatility.md
+  - title: Starvation
+    statement: markdowns/chapter10/9-starvation.md
+  - title: Deadlocks - Part I
+    statement: markdowns/chapter10/A0-deadlocks-part-i.md
+  - title: Deadlocks - Part II
+    statement: markdowns/chapter10/A1-deadlocks-part-ii.md
+  - title: Deadlocks - Part II
+    statement: markdowns/chapter10/A2-deadlocks-part-iii.md
+  - title: The Producer-Consumer Problem - Part I
+    statement: markdowns/chapter10/B0-the-producer-consumer-problem-part-i.md
+  - title: The Producer-Consumer Problem - Part II
+    statement: markdowns/chapter10/B1-the-producer-consumer-problem-part-ii.md
+  - title: The Producer-Consumer Problem - Part III
+    statement: markdowns/chapter10/B2-the-producer-consumer-problem-part-iii.md
+  - title: The Producer-Consumer Problem - Part IV
+    statement: markdowns/chapter10/B3-the-producer-consumer-problem-part-iv.md
+  - title: The Producer-Consumer Problem - Part V
+    statement: markdowns/chapter10/B4-the-producer-consumer-problem-part-v.md
+  - title: The Producer-Consumer Problem - Part VI
+    statement: markdowns/chapter10/B5-the-producer-consumer-problem-part-vi.md
+  - title: Reader-Writer Locks - Part I
+    statement: markdowns/chapter10/C0-reader-writer-locks-part-i.md
+  - title: Reader-Writer Locks - Part II
+    statement: markdowns/chapter10/C1-reader-writer-locks-part-ii.md
+  - title: Reader-Writer Locks - Part III
+    statement: markdowns/chapter10/C2-reader-writer-locks-part-iii.md
+  - title: Reader-Writer Locks - Part IV
+    statement: markdowns/chapter10/C3-reader-writer-locks-part-iv.md
+  - title: Reentrant Locks - Part I
+    statement: markdowns/chapter10/D0-reentrant-locks-part-i.md
+  - title: Reentrant Locks - Part II
+    statement: markdowns/chapter10/D1-reentrant-locks-part-ii.md
+  - title: Reentrant Locks - Part III
+    statement: markdowns/chapter10/D2-reentrant-locks-part-iii.md
+  - title: Reentrant Locks - Part IV
+    statement: markdowns/chapter10/D3-reentrant-locks-part-iv.md
+  - title: Thread Pools - Part I
+    statement: markdowns/chapter10/E0-thread-pools-part-i.md
+  - title: Thread Pools - Part II
+    statement: markdowns/chapter10/E1-thread-pools-part-ii.md
+  - title: Thread Pools - Part III
+    statement: markdowns/chapter10/E2-thread-pools-part-iii.md
+  - title: Scheduled Executor Services
+    statement: markdowns/chapter10/F-scheduled-executor-services.md
+  - title: Futures
+    statement: markdowns/chapter10/G-futures.md
+  - title: Streams
+    statement: markdowns/chapter10/H-streams.md
+  - title: ParSeq - Part I
+    statement: markdowns/chapter10/I-parseq-part-i.md
+  - title: ParSeq - Part II
+    statement: markdowns/chapter10/I-parseq-part-ii.md
+  - title: ParSeq - Part III
+    statement: markdowns/chapter10/I-parseq-part-iii.md
+  - title: ParSeq - Part IV
+    statement: markdowns/chapter10/I-parseq-part-iv.md
+  - title: File Locks
+    statement: markdowns/chapter10/J-file-locks.md
+  - title: Distributed Locks
+    statement: markdowns/chapter10/K-distributed-locks.md
+  - title: Linearizable Counters
+    statement: markdowns/chapter10/L-linearizable-counters.md
