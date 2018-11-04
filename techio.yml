@@ -574,3 +574,78 @@ plan:
     statement: markdowns/chapter10/K-distributed-locks.md
   - title: Linearizable Counters
     statement: markdowns/chapter10/L-linearizable-counters.md
+- title: Chapter 11
+  description: "Essential Knowledge: Testing"
+  plan:
+  - title: White-Box Testing
+    statement: markdowns/chapter11/0-white-box-testing.md
+  - title: Gray-Box Testing
+    statement: markdowns/chapter11/1-gray-box-testing.md
+  - title: Black-Box Testing
+    statement: markdowns/chapter11/2-black-box-testing.md
+  - title: Mocking
+    statement: markdowns/chapter11/3-mocking.md
+  - title: EasyMock
+    statement: markdowns/chapter11/4-easymock.md
+  - title: Test Hooks - Part I
+    statement: markdowns/chapter11/5-test-hooks-part-i.md
+  - title: Test Hooks - Part II
+    statement: markdowns/chapter11/6-test-hooks-part-ii.md
+  - title: Dealing with Randomness - Part I
+    statement: markdowns/chapter11/7-dealing-with-randomness-part-i.md
+  - title: Dealing with Randomness - Part II
+    statement: markdowns/chapter11/8-dealing-with-randomness-part-ii.md
+  - title: Test Case Anatomy - Part I
+    statement: markdowns/chapter11/9-test-case-anatomy-part-i.md
+  - title: Test Case Anatomy - Part II
+    statement: markdowns/chapter11/A-test-case-anatomy-part-ii.md
+  - title: Data-Driven Testing
+    statement: markdowns/chapter11/B-data-driven-testing.md
+- title: Chapter 12
+  description: "A Few More Things About Programming"
+  plan:
+  - title: Git
+    statement: markdowns/chapter12/0-git.md
+  - title: Subversion
+    statement: markdowns/chapter12/1-subversion.md
+  - title: Ant
+    statement: markdowns/chapter12/2-ant.md
+  - title: Exceptions
+    statement: markdowns/chapter12/3-exceptions.md
+  - title: Handling Exceptions - Part I
+    statement: markdowns/chapter12/4-handling-exceptions-part-i.md
+  - title: Handling Exceptions - Part II
+    statement: markdowns/chapter12/5-handling-exceptions-part-ii.md
+  - title: Handling Exceptions - Part III
+    statement: markdowns/chapter12/6-handling-exceptions-part-iii.md
+  - title: Handling Exceptions - Part III
+    statement: markdowns/chapter12/7-custom-exceptions.md
+  - title: Docstrings
+    statement: markdowns/chapter12/8-docstrings.md
+  - title: Debugging
+    statement: markdowns/chapter12/9-debugging.md
+- title: Chapter 13
+  description: "Essential Knowledge: Data Stores"
+  plan:
+  - title: JSON Serialization
+    statement: markdowns/chapter13/0-json-serialization.md
+  - title: Pickling
+    statement: markdowns/chapter13/1-pickling.md
+  - title: Shelving
+    statement: markdowns/chapter13/2-shelving.md
+  - title: Java Object Serialization - Part I
+    statement: markdowns/chapter13/3-java-object-serialization.md
+  - title: Accessing HDF from Python using PyTables
+    statement: markdowns/chapter13/4-accessing-hdf-from-python-using-pytables.md
+  - title: Working with Databases
+    statement: markdowns/chapter13/5-working-with-databases.md
+- title: Chapter 14
+  description: "Thoughts on System Design for Big Data"
+  plan:
+  - title: Start
+    statement: markdowns/chapter14/0-start.md
+- title: Chapter 15
+  description: "Thoughts on Software Craftsmanship"
+  plan:
+  - title: Start
+    statement: markdowns/chapter15/0-start.md

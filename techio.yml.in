@@ -56,3 +56,23 @@ plan:
   description: "Essential Knowledge: Parallel Programming"
   plan:
 >>build-plan markdowns/chapter10/*
+- title: Chapter 11
+  description: "Essential Knowledge: Testing"
+  plan:
+>>build-plan markdowns/chapter11/*
+- title: Chapter 12
+  description: "A Few More Things About Programming"
+  plan:
+>>build-plan markdowns/chapter12/*
+- title: Chapter 13
+  description: "Essential Knowledge: Data Stores"
+  plan:
+>>build-plan markdowns/chapter13/*
+- title: Chapter 14
+  description: "Thoughts on System Design for Big Data"
+  plan:
+>>build-plan markdowns/chapter14/*
+- title: Chapter 15
+  description: "Thoughts on Software Craftsmanship"
+  plan:
+>>build-plan markdowns/chapter15/*

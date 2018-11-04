@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+CLASS_NAME=`grep -Po "(?<=public class )\w+" "$1.java"`
+cp "$1.java" $CLASS_NAME.java
+export CLASSPATH=.\
+:jars/easymock-4.0.1.jar\
+:jars/guava-27.0-jre.jar\
+:jars/jcommander-1.27.jar\
+:jars/testng-6.8.5.jar\
+:.
+javac $CLASS_NAME.java
+cat > testng.xml << EOF
+<suite name="$CLASS_NAME" verbose="1">
+    <test name="$CLASS_NAME">
+        <classes>
+            <class name="$CLASS_NAME" />
+        </classes>
+    </test>
+</suite>
+EOF
+java org.testng.TestNG testng.xml

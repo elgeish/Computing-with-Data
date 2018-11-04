@@ -2,3 +2,5 @@
 Main.java
 .lock
 *.out
+testng.xml
+test-output

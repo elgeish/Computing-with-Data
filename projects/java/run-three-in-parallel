@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 cp "$1.java" Main.java
 javac Main.java
 pids=""
