@@ -642,8 +642,22 @@ plan:
 - title: Chapter 14
   description: "Thoughts on System Design for Big Data"
   plan:
-  - title: Start
-    statement: markdowns/chapter14/0-start.md
+  - title: Partitioning
+    statement: markdowns/chapter14/0-partitioning.md
+  - title: Retry Policies
+    statement: markdowns/chapter14/1-partitioning.md
+  - title: Amazon DynamoDB - Part I
+    statement: markdowns/chapter14/3-amazon-dynamodb-part-i.md
+  - title: Amazon DynamoDB - Part II
+    statement: markdowns/chapter14/4-amazon-dynamodb-part-ii.md
+  - title: Amazon DynamoDB - Part III
+    statement: markdowns/chapter14/5-amazon-dynamodb-part-iii.md
+  - title: Amazon DynamoDB - Part IV
+    statement: markdowns/chapter14/6-amazon-dynamodb-part-iv.md
+  - title: Amazon DynamoDB - Part V
+    statement: markdowns/chapter14/7-amazon-dynamodb-part-v.md
+  - title: Amazon DynamoDB - Part VI
+    statement: markdowns/chapter14/8-amazon-dynamodb-part-vi.md
 - title: Chapter 15
   description: "Thoughts on Software Craftsmanship"
   plan:
