@@ -43,6 +43,6 @@ int main() {
   p.print();  // Point::print is called
   np.print();  // NamedPoint::print is called
   
-  return 0;	
+  return 0;
 }
 ```

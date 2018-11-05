@@ -3,7 +3,7 @@
 Here's an example of a probabilistic exponential backoff poller; this one
 starts with an initial delay of 2 milliseconds and gives up when the total
 delay exceeds 60 milliseconds; it also allows resetting the delay interval
-with a probability of 0.42:
+with a probability of 0.42 (give it a try; run it multiple times):
 
 ```java runnable
 import java.util.Random;
@@ -22,8 +22,7 @@ class ProbabilisticExponentialBackoffPoller {
     int totalDelay = 0;
     
     while (messages.length == 0 && totalDelay <= maxTotalDelay) {
-      System.out.printf(
-        "Sleeping for %d %s\n", currentDelay, timeUnit);
+      System.out.printf("Sleeping for %d %s\n", currentDelay, timeUnit);
       timeUnit.sleep(currentDelay);
       totalDelay += currentDelay;
       currentDelay *= 2;
@@ -45,9 +44,7 @@ class ProbabilisticExponentialBackoffPoller {
 
 public class Main {
   public static void main(String args[]) throws Exception {
-    final Object[] messages =
-      new ProbabilisticExponentialBackoffPoller().poll(
-      TimeUnit.MILLISECONDS, 2, 60, 0.42);
+    new ProbabilisticExponentialBackoffPoller().poll(TimeUnit.MILLISECONDS, 2, 60, 0.42);
   }
 }
 ```

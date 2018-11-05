@@ -5,4 +5,4 @@ of importing. Suppose we have a module file `my_vars.py`, the definitions in
 this file can be accessed in a different file using the appropriate `import`
 command:
 
-@[]({"project": "py", "stubs": ["chapter6/importing-modules.py"], "command": "python chapter6/importing-modules.py"})
+@[]({"project": "py", "stubs": ["chapter6/importing-modules.py", "chapter6/my_vars.py"], "command": "python chapter6/importing-modules.py"})

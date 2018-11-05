@@ -633,7 +633,7 @@ plan:
     statement: markdowns/chapter13/1-pickling.md
   - title: Shelving
     statement: markdowns/chapter13/2-shelving.md
-  - title: Java Object Serialization - Part I
+  - title: Java Object Serialization
     statement: markdowns/chapter13/3-java-object-serialization.md
   - title: Accessing HDF from Python using PyTables
     statement: markdowns/chapter13/4-accessing-hdf-from-python-using-pytables.md
@@ -645,7 +645,7 @@ plan:
   - title: Partitioning
     statement: markdowns/chapter14/0-partitioning.md
   - title: Retry Policies
-    statement: markdowns/chapter14/1-partitioning.md
+    statement: markdowns/chapter14/1-retry-policies.md
   - title: Amazon DynamoDB - Part I
     statement: markdowns/chapter14/3-amazon-dynamodb-part-i.md
   - title: Amazon DynamoDB - Part II

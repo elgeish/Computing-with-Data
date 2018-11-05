@@ -1,19 +1,19 @@
 # Example 1
 foo2 = function(i) {
-	a = i + 1;
-	b = a + 1;
-	browser();
-	a = b + 1;
-	return(b)
+  a = i + 1;
+  b = a + 1;
+  browser();
+  a = b + 1;
+  return(b)
 }
 foo2(3)
 
 # Example 2
 foo3 = function(i) {
-	a = i + 1;
-	b = a + 1;
-	a = b + 1;
-	return(b)
+  a = i + 1;
+  b = a + 1;
+  a = b + 1;
+  return(b)
 }
 debug(foo3)
 foo3(1)

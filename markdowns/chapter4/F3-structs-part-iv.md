@@ -39,6 +39,6 @@ int main() {
   v.end.x = 2;
   v.end.y = 1;
   
-  cout << "length of the vector is: " << length(v) << endl;	
+  cout << "length of the vector is: " << length(v) << endl;
 }
 ```

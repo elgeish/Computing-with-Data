@@ -33,8 +33,8 @@ public:
 };
 
 void Point::reflect() {
-  x = -x;  // alternatively, this->x = - this->x
-  y = -y;	 // alternatively, this->y = - this->y
+  x = -x; // alternatively, this->x = - this->x
+  y = -y; // alternatively, this->y = - this->y
 }
 
 int main() {
