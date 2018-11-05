@@ -2,7 +2,7 @@ import sqlite3
 import pandas.io.sql
 
 # create a connection
-con=sqlite3.connect(':memory')
+con = sqlite3.connect(':memory')
 # create a table
 createStmt = """
   CREATE TABLE LOCATIONS(
