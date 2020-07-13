@@ -9,7 +9,7 @@
 ## A Guide Book to the Data Industry
 
 * Introduces programmers to data science concepts and practices through new
-apparatuses such as R programming and data processing techniques
+apparatuses such as Python programming and data processing techniques
 * Explains prevalent programming languages and data processing systems that
 are commonly used to address engineering challenges
 * Explores new tools and libraries to use in big data projects
